@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts" setup>
-import type { UserWithoutPassword } from "~~/src/types/types";
+import type { UserWithoutPassword } from "~~/src/types/userTypes";
 
 defineProps<{ user: UserWithoutPassword | null }>();
 </script>

@@ -1,11 +1,11 @@
 {
   "private": true,
   "scripts": {
-    "prepare": "nuxt prepare",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "prepare": "nuxt prepare"
   },
   "dependencies": {
     "@types/bcryptjs": "^2.4.2",

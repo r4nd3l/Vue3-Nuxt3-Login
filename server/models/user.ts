@@ -1,4 +1,4 @@
-import type { User } from "~~/src/types/types";
+import type { User } from "~~/src/types/userTypes";
 
 // Fake users data
 const users: User[] = [
