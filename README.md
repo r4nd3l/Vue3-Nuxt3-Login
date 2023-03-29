@@ -1,7 +1,3 @@
-# Nuxt 3 Minimal Starter
-
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
 ## Setup
 
 Make sure to install the dependencies:
@@ -14,7 +10,13 @@ yarn install
 npm install
 
 # pnpm
-pnpm install
+pnpm install --shamefully-hoist
+```
+
+Copy the `.env.example` file to `.env` and fill in the values.
+
+```bash
+cp .env.example .env
 ```
 
 ## Development Server
@@ -39,4 +41,4 @@ Locally preview production build:
 npm run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
